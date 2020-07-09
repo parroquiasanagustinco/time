@@ -1,12 +1,12 @@
 $(function(){
     function timer(settings){
         var config = {
-            endDate: '2020-04-29 19:45',
-            timeZone: 'Europe/Stockholm',
+            endDate: '2020-07-26 14:00',
+            timeZone: 'America/Bogota',
             hours: $('#hours'),
             minutes: $('#minutes'),
             seconds: $('#seconds'),
-            newSubMessage: 'and should be back online in a few minutes...'
+            newSubMessage: 'y debería volver a estar en línea en unos minutos ...'
         };
         function prependZero(number){
             return number < 10 ? '0' + number : number;
